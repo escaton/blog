@@ -130,7 +130,7 @@ body {
   font-size: 28px;
   color: #444;
   position: relative;
-  
+
 }
 
 .post__body {
@@ -170,54 +170,54 @@ body {
 	<span>Catethysis</span>
 </header>
 <section class="main">
-<article class="post">
-	<div class="post__head">
-		<div class="post__head-arrow"></div>
-		<h1>Заголовок</h1>
-	</div>
-	<section class="post__body">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	<img class="post__img" src="http://catethysis.ru/wp-content/uploads/2014/09/mq135.png" />
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <article class="post">
+    	<div class="post__head">
+    		<div class="post__head-arrow"></div>
+    		<h1>Заголовок</h1>
+    	</div>
+    	<section class="post__body">
+    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    	<img class="post__img" src="http://catethysis.ru/wp-content/uploads/2014/09/mq135.png" />
+    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-	<img class="post__img" src="http://catethysis.ru/wp-content/uploads/2014/09/mq135.png" />
+    	<img class="post__img" src="http://catethysis.ru/wp-content/uploads/2014/09/mq135.png" />
 
-	<pre class="post__code"><code class = "cs">uint16_t getCO2Level()
-{
-	ADC_SoftwareStartConvCmd(ADC1, ENABLE);
-	while(ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) == RESET);
-	return ADC_GetConversionValue(ADC1);
-}</code></pre>
-	</section>
-</article>
+    	<pre class="post__code"><code class = "cs">uint16_t getCO2Level()
+    {
+    	ADC_SoftwareStartConvCmd(ADC1, ENABLE);
+    	while(ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) == RESET);
+    	return ADC_GetConversionValue(ADC1);
+    }</code></pre>
+    	</section>
+    </article>
 </section>
 <aside>
 

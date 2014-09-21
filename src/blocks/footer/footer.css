@@ -1,0 +1,16 @@
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 200px;
+    text-align: center;
+    width: 800px;
+    z-index: 1;
+    background: url(../header/roads.png) no-repeat 458px 0px;
+}
+
+.footer span {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: 0;
+}

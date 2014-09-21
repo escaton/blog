@@ -1,0 +1,21 @@
+.post {
+    font-family: Arial;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.post__body {
+    padding: 0 70px;
+}
+
+.post__img {
+    display: block;
+}
+
+.post__code {
+    margin: 10px -70px;
+}
+
+.post__code .hljs {
+    padding: 30px 70px;
+}
