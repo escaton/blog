@@ -1,0 +1,12 @@
+block footer {
+
+    tag: 'footer'
+
+    content: [
+        {
+            tag: 'span',
+            content: 'Footer. Bye!'
+        }
+    ]
+
+}

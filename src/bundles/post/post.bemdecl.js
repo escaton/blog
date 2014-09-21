@@ -24,5 +24,23 @@ exports.deps = [
     },
     {
         "block": "header"
+    },
+    {
+        "block": "b-page",
+        "elem": "main"
+    },
+    {
+        "block": "post"
+    },
+    {
+        "block": "post",
+        "elem": "head"
+    },
+    {
+        "block": "post",
+        "elem": "body"
+    },
+    {
+        "block": "footer"
     }
 ];

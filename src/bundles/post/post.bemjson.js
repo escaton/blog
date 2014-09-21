@@ -26,6 +26,27 @@
             content: [
                 {
                     block: 'header'
+                },
+                {
+                    elem: 'main',
+                    content: [
+                        {
+                            block: 'post',
+                            content: [
+                                {
+                                    elem: 'head',
+                                    content: ''
+                                },
+                                {
+                                    elem: 'body',
+                                    content: ''
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block: 'footer'
                 }
             ]
         }
