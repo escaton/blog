@@ -1,6 +1,7 @@
 ._*
 
 src/node_modules
+src/vendors
 src/.enb/tmp
 src/bundles/*/*
 !src/bundles/*/*.bemdecl.js
