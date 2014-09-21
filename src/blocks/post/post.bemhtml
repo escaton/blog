@@ -1,0 +1,35 @@
+block post {
+    
+    tag: 'article'
+
+    elem head {
+
+        content: [
+            {
+                elem: 'head-arrow'
+            },
+            {
+                tag: 'h1',
+                content: this.ctx.content
+            }
+        ]
+
+    }
+
+    elem body {
+        tag: 'section'
+    }
+
+    elem code {
+
+        tag: 'pre'
+
+        content: {
+            tag: 'code',
+            cls: 'cs',
+            content: this.ctx.content
+        }
+
+    }
+
+}
