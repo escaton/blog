@@ -1,0 +1,11 @@
+.b-page {
+    background: #eee;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.b-page__center {
+    width: 800px;
+    margin: 0 auto;
+}

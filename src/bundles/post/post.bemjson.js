@@ -2,10 +2,10 @@
     block: 'b-page',
     title: 'Title!',
     head: [
-         { elem: 'css', url: '_index' + '.css', ie: false },
-        { elem: 'css', url: '_index', ie: true },
+         { elem: 'css', url: '_post' + '.css', ie: false },
+        { elem: 'css', url: '_post', ie: true },
         { elem: 'js', url: '//yastatic.net/jquery/1.8.3/jquery.min.js' },
-        { elem: 'js', url: '_index.js' },
+        { elem: 'js', url: '_post.js' },
 
         // FIXME: незабываем заменить favicon на иконку своего сервиса
         { elem: 'favicon', url: '' },
@@ -21,6 +21,13 @@
         { elem: 'meta', attrs: { property: 'og:type', content: 'website' } }
     ],
     content: [
-        'Post'
+        {
+            elem: 'center',
+            content: [
+                {
+                    block: 'header'
+                }
+            ]
+        }
     ]
 })
