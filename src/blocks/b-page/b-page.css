@@ -9,3 +9,14 @@
     width: 800px;
     margin: 0 auto;
 }
+
+.b-page__main {
+    position: relative;
+    z-index: 2;
+    margin: 200px 0;
+    background: #fff;
+    text-align: left;
+    display: inline-block;
+    box-shadow: 0 10px 120px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 5px 5px;
+}
