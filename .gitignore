@@ -2,5 +2,5 @@
 
 src/node_modules
 src/.enb/tmp
-src/bundles/**/*
-!src/bundles/**/*.bemdecl.js
+src/bundles/*/*
+!src/bundles/*/*.bemdecl.js
