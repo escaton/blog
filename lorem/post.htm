@@ -1,0 +1,228 @@
+<meta charset="utf8">
+<link href="http://yastatic.net/highlightjs/8.2/styles/monokai.min.css" rel="stylesheet"></link>
+<script src="http://yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+<script>
+hljs.configure({
+  tabReplace: '    ' // 4 spaces
+});
+hljs.initHighlightingOnLoad();
+</script>
+<style>
+
+body {
+	background: #eee;
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+.center {
+	width: 800px;
+	margin: 0 auto;
+}
+
+/*.center:after {
+	content: '';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background: repeating-linear-gradient(
+		to left,
+		#ddd,
+		#ddd 5px,
+		#eee 5px,
+		#eee 10px
+	);
+	width: 15px;
+	margin-left: 200px;
+}*/
+
+.header {
+	text-align: left;
+	position: fixed;
+	top: 0px;
+	height: 200px;
+	width: 800px;
+	z-index: 1;
+	background: url(./roads.png) no-repeat 400px 0px;
+}
+
+.header span {
+	font-size: 40px;
+	color: transparent;
+	text-shadow: 0 0 0px #777;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+.main {
+	position: relative;
+	z-index: 2;
+	margin: 200px 0;
+	background: #fff;
+	text-align: left;
+	display: inline-block;
+	box-shadow: 0 10px 120px rgba(0, 0, 0, 0.3);
+	border-radius: 0 0 5px 5px;
+}
+
+.post {
+  	font-family: Arial;
+  	line-height: 23px;
+	font-size: 14px;
+}
+
+.post__head {
+	position: relative;
+	width: 100%;
+	background: #FFF;
+}
+
+.post__head:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	height: 10px;
+	left: 0;
+	right: 0;
+	box-shadow: 0 10px 10px -5px #fff inset;
+}
+
+.post__head-arrow {
+	border-top: 6px double #bbb;
+	margin: 30px -20px 0;
+	padding: 0 20px;
+	position: relative;
+}
+
+.post__head-arrow:after {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 2px;
+	width: 20px;
+	border-top: 6px double #999;
+	transform: skewY(-40deg);
+	margin-left: -20px;
+}
+
+.post__head-arrow:before {
+	content: '';
+	position: absolute;
+	right: 100%;
+	top: 2px;
+	width: 20px;
+	border-top: 6px double #999;
+	transform: skewY(40deg);
+	margin-right: -20px;
+}
+
+.post__head h1 {
+  padding: 0;
+  line-height: 40px;
+  margin: -23px 0 0 20px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
+  font-weight: 100;
+  font-size: 28px;
+  color: #444;
+  position: relative;
+  
+}
+
+.post__body {
+	padding: 0 70px;
+}
+
+.post__img {
+	display: block;
+}
+
+.post__code {
+	margin: 10px -70px;
+}
+
+.post__code .hljs {
+	padding: 30px 70px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	height: 200px;
+	text-align: center;
+	width: 800px;
+	z-index: 1;
+	background: url(./roads.png) no-repeat 458px 0px;
+}
+
+.footer span {
+	position: absolute;
+	bottom: 50px;
+}
+
+</style>
+<div class="center">
+<header class="header">
+	<span>Catethysis</span>
+</header>
+<section class="main">
+<article class="post">
+	<div class="post__head">
+		<div class="post__head-arrow"></div>
+		<h1>Заголовок</h1>
+	</div>
+	<section class="post__body">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<img class="post__img" src="http://catethysis.ru/wp-content/uploads/2014/09/mq135.png" />
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	<img class="post__img" src="http://catethysis.ru/wp-content/uploads/2014/09/mq135.png" />
+
+	<pre class="post__code"><code class = "cs">uint16_t getCO2Level()
+{
+	ADC_SoftwareStartConvCmd(ADC1, ENABLE);
+	while(ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) == RESET);
+	return ADC_GetConversionValue(ADC1);
+}</code></pre>
+	</section>
+</article>
+</section>
+<aside>
+
+</aside>
+<footer class="footer">
+	<span>Footer. Bye!</span>
+</footer>
+</div>
